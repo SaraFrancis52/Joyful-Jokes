@@ -1,0 +1,17 @@
+<h1 class="pageheader">{{title}}</h1>
+<div>
+   <table>
+      <tr>
+         <th>Username</th>
+         <th>Password</th>
+         <th>Role</th>
+      </tr>
+      {{#each userEntries}}
+         <tr>
+            <td>{{this.username}}</td>
+            <td>{{this.password}}</td>
+            <td>{{this.role}}</td>
+         </tr>
+      {{/each}} 
+   </table>
+</div>

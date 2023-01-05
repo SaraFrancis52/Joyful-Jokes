@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(246, 255, 253);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.main{
+  font-family: 'Mali', cursive, sans-serif;
+  text-align: center;
+  font-size: 85px;
+  color:rgb(15, 163, 136);
+  margin-top: 25px;
+}
+
+
+.pageheader{
+  color:rgb(15, 163, 136);
+  font-family: 'Mali', cursive, sans-serif;
+  font-size: 40px;
+  margin-top: 5;
+
+}
+
+.button, .button:visited{
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px 20px 10px 0px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(159, 231, 218);
+}
+
+.button:hover, .button:active{
+  background-color: rgb(68, 229, 200);
+  padding: 10px 20px;
+  margin: 10px 20px 10px 0px;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.label{
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: rgb(22, 22, 22);
+}
+
+.box{
+  font-size: 25px;
+  color: rgb(22, 22, 22);
+}
+
+p {
+  font-size: 25px;
+}
+
+.footer{
+  text-align: center;
+  color: rgb(22, 22, 22);
+}
+
+.link:link, .link:visited {
+  display: inline-block;
+  font-size: 25px;
+  color: rgb(15, 163, 136);
+  padding-right: 15px;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover, .link:active {
+  font-size: 25px;
+  padding-right: 15px;
+  color: rgb(8, 108, 90);
+  text-decoration: none;
+}
+
+table{
+  font-size: 25px;
+  display: inline-block;
+  border-spacing: 20px 15px;
+}
+
+th, tr, td{
+  padding: 5px;
+}
+
+td:nth-child(1){
+  width: 20%;
+}
+
+td:nth-child(2){
+  width: 40%;
+}
+td:nth-child(3){
+  width: 40%;
+}
+
+th{
+  background-color: rgb(137, 218, 200);
+  border: 1px solid rgb(22, 22, 22);
+}
+
+tr:nth-child(odd){
+  background-color:rgb(206, 254, 244);
+}
+
+tr:nth-child(even){
+  background-color:rgb(232, 253, 250);
+}
+
+#answer_button, #answer_button:visited{
+  background-color: rgb(246, 255, 253);
+  color:rgb(246, 255, 253);
+  border: none;
+  font-size: 25px;
+}
+
+#answer_button:hover, #answer_button:active{
+  color: rgb(22, 22, 22);
+  border: none;
+  font-size: 25px;
+}
+

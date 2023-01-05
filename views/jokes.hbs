@@ -1,0 +1,17 @@
+<h1 class="pageheader">{{title}}</h1>
+<div>
+   <table>
+      <tr>
+         <th>User</th>
+         <th>Question</th>
+         <th>Answer</th>
+      </tr>
+      {{#each jokeEntries}} 
+         <tr>
+            <td class="user">{{this.question}}</td> 
+            <td>{{this.answer}}</td> 
+            <td>{{this.savedBy}}</td>
+         </tr>
+      {{/each}} 
+   </table>
+</div>
